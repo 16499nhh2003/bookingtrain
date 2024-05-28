@@ -1,0 +1,71 @@
+/* style.css */
+.shop {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+    margin-top: -80px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    order: -1;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto; 
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.sidebar > div {
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sidebar input[type="checkbox"],
+.sidebar select,
+.sidebar input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.sidebar input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.sidebar select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%237c7c7c" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
+
+.sidebar input[type="time"] {
+    height: 36px;
+}
+
+.footerContact,
+footer {
+    min-height: 160px;
+}
